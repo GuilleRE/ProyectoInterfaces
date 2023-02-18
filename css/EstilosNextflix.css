@@ -1,0 +1,138 @@
+/*Es un css parecido a EstilosPrime pero cambiando ciertos valores*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    color: white;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+h1 {
+    margin: 15px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    border-radius: 20px;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.637);
+}
+article{
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+
+article h2{
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0, 185, 0, 0.747);
+    background-color: rgb(6, 6, 170);
+    border-radius: 20px;
+    -webkit-text-stroke: 0.5px white;
+    text-shadow: 2px 2px 2px rgba(0, 185, 0, 0.747);
+}
+
+aside img{
+    width: 75%;
+}
+
+aside {
+    width: 30%;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 5%;
+    float: right;
+}
+
+.centrar{
+    margin-left: 24%;
+}
+
+footer p{
+    margin-left: 10px;
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+strong{
+    color: #0ebad8e1;
+}
+
+a img{
+    border: 1px white solid;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.enlace{
+    margin-left: 25%;
+}
+
+.enlace_dos{
+    margin-left: 23%;
+}
+
+.rotar{
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+    transition:  transform 1s ease-in-out;
+}
+
+.rotar:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+footer{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
+
+.footerimg{
+    border-radius: 4px;
+    height: 30px;
+    border: 0ch;
+    border-radius: 20px;
+}
+
+nav{
+    padding: 1%;
+    background-image: url(../Imagen/nav.jpg);
+    background-size: 100px;
+    text-align: center;
+}
+nav a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    background: rgb(5, 176, 39);
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+
+nav a:hover {
+    background: rgb(0,203,255);
+    background: radial-gradient(circle, rgba(0,203,255,1) 0%, rgba(5,176,39,1) 100%);
+    text-decoration: underline;
+    color: blue;
+}
